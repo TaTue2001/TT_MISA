@@ -1,0 +1,46 @@
+@import url(./components/button.css);
+@import url(./components/input.css);
+@import url(./components/icon.css);
+@import url(./components/toast.css);
+@import url(../asset/font/font/fontawesome-5.15.1/css/all.min.css);
+@import url(../asset/font/font/fontawesome-5.15.1/js/all.min.js);
+@import url(./components/table.css);
+@import url(./components/paging.css);
+@import url(./components/dialog.css);
+@import url(./layout/header.css);
+@import url(./layout/navbar.css);
+@import url(./layout/page.css);
+@import url(./components/dialoginfor.css);
+@import url(./components/loading.css);
+
+body{
+    font-family: GoogleSans;
+    font-size: 13px;
+    margin: 0;
+}
+
+@font-face {
+    font-family: GoogleSans;
+    src: url("../asset/font/font/GoogleSans-Regular.otf");
+}
+
+@font-face {
+    font-family: GoogleSans;
+    src: url("../asset/font/font/GoogleSans-Bold.otf");
+    font-size: 600;
+}
+@font-face {
+    font-family: GoogleSans Italic;
+    src: url("../asset/font/font/GoogleSans-Italic.otf");
+    font-style: italic;
+}
+.m-row{
+    width: 100%;
+    margin-top: 4px;
+}
+.main{
+    display: flex;
+    width: 100%;
+    height: calc(100vh - 48px );
+    /* background-color: blanchedalmond; */
+}

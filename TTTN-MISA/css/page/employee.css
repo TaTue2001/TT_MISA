@@ -1,0 +1,94 @@
+.m-page{
+    box-sizing: border-box;
+}
+.m-page-header{
+    position: relative;
+    display: flex;
+    /* background-color: aquamarine; */
+    width: 100%;
+    height: 48px;
+    align-items: center;
+    margin-top: 12px;
+}
+.m-page-header .m-page-header-title{
+    font-size: 20px;
+    font-weight: 700;
+    position: absolute;
+    left: 0;
+}
+
+.m-page-header  .m-page-header-button{
+    position: absolute;
+    right: 0;
+}
+
+.m-page-toolbar{
+    width: 100%;
+    height: 48px;
+    /* background-color: rgb(188, 132, 49); */
+    position: relative;
+    align-items: center;
+    display: flex;
+}
+.m-page-toolbar .m-toolbar-left {
+    align-items: center;
+    display: flex; 
+}
+.m-page-toolbar .m-toolbar-left select{
+    border-radius: 4px;
+    height: 24px;
+}
+
+.search-by-deparment{
+    margin-left: 8px;
+}
+.search-by-position{
+    margin-left:16px ;
+}
+.m-page-toolbar .m-toolbar-right{
+    position: absolute;
+    right: 0;
+    margin-right: 0;
+    box-sizing: border-box;
+}
+.m-page-toolbar .m-toolbar-right .m-btn-refresh{
+    height:35px;
+    width:35px;
+    background-color: azure;
+    border-radius: 4px;
+    border: 2px solid #bbb;
+    cursor: pointer;
+}
+.m-page-toolbar .m-toolbar-right .m-btn-refresh :hover{
+    background-color: #727272;
+}
+
+
+.m-page-grid{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: calc(100vh - 48px - 48px - 48px - 12px);
+    position: relative;
+    margin-bottom: 0;
+    box-sizing: border-box;
+}
+.m-page-grid .m-paging{
+    position: absolute;
+    bottom: 0;  
+    margin-bottom: 0;
+    flex-shrink: 0;
+}
+.m-grid {
+    height: calc(100vh - 48px - 48px - 48px - 12px - 56px);
+    position: absolute;
+    top: 0;
+    bottom: 56px;
+    overflow: auto;
+}
+.m-table thead{
+    position: sticky;
+    top: 0;
+    background-color: #ffffff;
+    border-bottom: #727272;
+}

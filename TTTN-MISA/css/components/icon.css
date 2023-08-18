@@ -1,0 +1,50 @@
+.m-icon-search{
+    background-image: url(../../asset/icon/icon/search.png);
+}
+.m-icon-add{
+    background-image: url(../../asset/icon/icon/add.png);
+}
+.m-icon-avatar-default{
+    background-image: url(../../asset/icon/icon/avatar-default.png);
+}
+.m-icon-dashboard{
+    background-image: url(../../asset/icon/icon/dashboard.png);
+}
+.m-icon-dic-employee{
+    background-image: url(../../asset/icon/icon/dic-employee.png);
+}
+.m-icon-document-online{
+    background-image: url(../../asset/icon/icon/document-online.png);
+}
+.m-icon-option{
+    background-image: url(../../asset/icon/icon/option.png);
+}
+.m-icon-radio-checked{
+    background-image: url(../../asset/icon/icon/radio-checked.png);
+}
+.m-icon-radio2x{
+    background-image: url(../../asset/icon/icon/radio@2x.png);
+}
+.m-icon-refresh{
+    background-image: url(../../asset/icon/icon/refresh.png);
+}
+.m-icon-report{
+    background-image: url(../../asset/icon/icon/report.png);
+}
+.m-icon-setting{
+    background-image: url(../../asset/icon/icon/setting.png);
+}
+.m-icon-16px{
+    background-size: 16px 16px;
+}
+.m-icon-12px{
+    background-size: 12px 12px;
+}
+.m-icon-24px{
+    background-size: 24px 24px;
+}
+.m-icon{
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}

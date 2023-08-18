@@ -1,0 +1,33 @@
+.m-loading{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(12, 12, 12, 0.322);
+    z-index: 40;
+    display: none;
+}
+.m-loading .m-loading-icon{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50% -50%) ;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 5px solid #FFF;
+    border-bottom-color: transparent;
+    display: inline-block;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+    }
+
+    @keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}

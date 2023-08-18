@@ -1,0 +1,37 @@
+.navbar{
+    height: 100%;
+    width: 226px;
+    flex-shrink: 0;
+    box-sizing: border-box;
+    border-right: 1px solid #bbb;
+}
+.navbar-item{
+    display: flex;
+    height: 44px;
+    width: 100%;
+    /* background-color: rgb(212, 153, 76); */
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.navbar-item-focus{ 
+    background-color: #019160;
+}
+.navbar-item:hover{
+    background-color: rgba(178, 189, 198, 0.764);
+}
+
+.navbar .navbar-item .navbar-item-icon{
+    height:20px;
+    width: 20px;
+    margin: 12px 10px 12px 16px;
+    background-size: cover;
+    background-position: center;
+
+}
+.navbar .navbar-item .navbar-item-text{
+    width: calc(226px - 46px - 12px);
+    margin:12px 0;
+    flex-shrink: 0;
+    /* background-color: brown; */
+}

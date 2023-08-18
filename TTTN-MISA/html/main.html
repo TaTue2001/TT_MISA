@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cukcuk</title>
+    <link rel="stylesheet" type="text/css" href="D:\Documents\TTTN-MISA\css\main.css">
+</head>
+<body>
+    <h1>Hello misa</h1>
+    <div class="m-row">
+        <label for="">1.Button</label>
+        <div class="m-row">
+            <button class="m-btn"> đóng</button>
+        </div>
+        
+    </div>
+    <div class="m-row">
+        <label for="">2.Button Icon</label>
+        <div class="m-row">
+            <button class="m-btn m-btn-icon m-icon-add">Lưu và thêm mới</button>
+        </div>    
+    </div>
+
+    <div class="m-row">
+        <label for="">3.Input</label>
+        <div class="m-row">
+            <input type="text" class="m-input" placeholder="tìm kiếm theo tên, số hồ sơ">
+        </div>
+        <div class="m-row" >
+            <div class="m-error-infor" style="width: 200px;">
+                <div class="m-error-text">Mật khẩu không đúng định dạng</div>
+                <div class="m-error-arrow"></div>
+            </div>
+            <input type="text" class="m-input m-input-error" placeholder="tìm kiếm theo tên, số hồ sơ">
+        </div>
+    </div>
+    <div class="m-row">
+        <label for="">4.Input Icon</label>
+        <div class="m-row">
+            <input type="text" class="m-input m-input-icon m-icon-search m-icon-16px" placeholder="tìm kiếm theo tên, số hồ sơ">
+        </div>
+    </div>
+
+    <div class="m-row">
+        <label for="">5.Toast Messenger</label>
+        <div class="m-row">
+            <button id="btn-log-mes" class="m-btn m-btn-icon m-icon-add">Hien thi toast messege</button>
+        </div>
+        <div class="m-toast-box">
+            <div class="m-toast-item m-toast-error">
+                <div class="m-toast-icon"><i class="fas fa-exclamation-circle"></i></div>
+                <div class="m-toast-text">Nôi dung đi kèm tiêu đề</div>
+                <div class="m-toast-close"><i class="fas fa-times"></i></div>
+            </div>
+            <div class="m-toast-item m-toast-warning">
+                <div class="m-toast-icon"><i class="fas fa-exclamation-circle"></i></div>
+                <div class="m-toast-text">Nôi dung đi kèm tiêu đề</div>
+                <div class="m-toast-close"><i class="fas fa-times"></i></div>
+            </div>
+            <div class="m-toast-item m-toast-success">
+                <div class="m-toast-icon"><i class="fas fa-check-circle"></i></div>
+                <div class="m-toast-text">Nôi dung đi kèm tiêu đề</div>
+                <div class="m-toast-close"><i class="fas fa-times"></i></div>
+            </div>
+            <div class="m-toast-item m-toast-infor  ">
+                <div class="m-toast-icon"><i class="fas fa-info-circle"></i></div>
+                <div class="m-toast-text">Nôi dung đi kèm tiêu đề</div>
+                <div class="m-toast-close"><i class="fas fa-times"></i></div>
+            </div>
+        </div>
+    </div>
+    <div class="m-row">
+        <label for="">6.Table</label>
+        <p>&check;</p>
+        <div class="m-row">
+            <div >
+                <table class="m-table" >
+                    <thead>
+                        <tr>
+                            <th class="text-align-center" style="width: 50px;">#</th>
+                            <th class="text-align-left" style="width: 100px;">Ma nhan vien</th>
+                            <th class="text-align-left" style="min-width: 150px;">ten nhan vien</th>
+                            <th class="text-align-left" style="width: 70px;">gioi tinh</th>
+                            <th class="text-align-center" style="width: 100px;">ngay sinh</th>
+                            <th class="text-align-left" style="min-width:300px ;">que quan</th>
+                            <th class="text-align-right" style="width: 120px;">muc luong co ban</th>
+                        </tr>
+                    </thead>
+                    <tbody >
+                        <tr class="m-row-selected">
+                            <td class="text-align-center" >
+                                <input class="box-check" type="checkbox" >
+                                <div class="m-icon-check"><p>&check;</p></div>    
+                            </td>
+                            <td class="text-align-left" >nv001</td>
+                            <td class="text-align-left">ta xuan tue</td>
+                            <td class="text-align-left" >nam</td>
+                            <td class="text-align-center">06-02-2001</td>   
+                            <td class="text-align-left">phu tho</td>
+                            <td class="text-align-right" >10.000.000</td>
+                        </tr>
+                        <tr>
+                            <td class="text-align-center" >
+                                <input type="checkbox" />
+                            </td>
+                            <td class="text-align-left" >nv001</td>
+                            <td class="text-align-left">ta xuan tue</td>
+                            <td class="text-align-left" >nam</td>
+                            <td class="text-align-center">06-02-2001</td>
+                            <td class="text-align-left">phu tho</td>
+                            <td class="text-align-right" >10.000.000</td>
+                            
+                        </tr>
+                        <tr >
+                            <td class="text-align-center" >
+                                <input type="checkbox" />
+                            </td>
+                            <td class="text-align-left" >nv001</td>
+                            <td class="text-align-left">ta xuan tue</td>
+                            <td class="text-align-left" >nam</td>
+                            <td class="text-align-center">06-02-2001</td>
+                            <td class="text-align-left">phu tho</td>
+                            <td class="text-align-right" >10.000.000</td>
+                            
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="m-paging" >
+                    <!-- left -->
+                    <div class="m-paging-left">Hiển thị <b>01-20/123</b> lao động</div>
+
+                    <!-- center -->
+                    <div class="m-paging-center">
+                        <div class="m-btn-first">
+                            <button><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevrons-left"><polyline points="11 17 6 12 11 7"></polyline><polyline points="18 17 13 12 18 7"></polyline></svg></button>
+                        </div>
+                        <div class="m-btn-prev">
+                            <button><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-left"><polyline points="15 18 9 12 15 6"></polyline></svg></button>
+                        </div>
+                        <div class="m-page">
+                            <button class="m-page-number m-page-number-selected">1</button>
+                            <button class="m-page-number">2</button>
+                            <button class="m-page-number">3</button>
+                            <button class="m-page-number">4</button>
+                        </div>
+                        <div class="m-btn-next">
+                            <button><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right"><polyline points="9 18 15 12 9 6"></polyline></svg></button>
+                        </div>
+                        <div class="m-btn-last">
+                            <button><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevrons-right"><polyline points="13 17 18 12 13 7"></polyline><polyline points="6 17 11 12 6 7"></polyline></svg></button>
+                        </div>
+                    </div>
+
+                    <!-- right -->
+                    <div class="m-paging-right">
+                        <select name="" id="" class="m-btn-page-select">
+                            <option value="10">10 nhân viên/trang</option>
+                            <option value="20">20 nhân viên/trang</option>
+                            <option value="50">50 nhân viên/trang</option>
+                        </select>
+                    </div>
+                </div>
+            
+            </div>
+        </div>
+    </div>
+    <div class="m-row">
+        <label for="">7.Dialog</label>
+        <div class="m-row">
+            <button id="btn-log-dialog" class="m-btn m-btn-icon ">Hien thi dialog</button>
+        </div>
+        <div class="m-dialog">
+            <div class="m-dialog-content-warn">
+                <!-- header -->
+                <div class="m-dialog-header">
+                    <div class="m-dialog-title">
+                        Đóng Form thông tin chung
+                    </div>
+                    <div class="m-dialog-item-close">
+                        <div class="m-dialog-icon-close"><i class="fas fa-times"></i></div>
+                    </div>
+                </div>
+
+                <!-- center -->
+                <div class="m-dialog-body">
+                    <div class="m-dialog-body-icon">
+                        <div class="m-dialog-body-icon-detail">
+                            <i class="fas fa-exclamation-circle"></i>
+                        </div>
+                    </div>
+                    <div class="m-dialog-body-message">
+                        <div class="m-dialog-body-message-detail"> bạn có chắc muốn đóng form nhập:"Thông tin chung của thủ tục 603" hay không ? </div>
+                    </div>
+
+                </div>
+
+                <!-- footer -->
+                <div class="m-dialog-footer">
+                    <div class="m-dialog-footer-btn-1">
+                        <button >text</button>
+                    </div>
+                    <div class="m-dialog-footer-btn-2">
+                        <button >text</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="m-dialog-content-infor">
+                <!-- header -->
+                <div class="m-dialog-header">
+                    <div class="m-dialog-title">
+                        Đóng Form thông tin chung
+                    </div>
+                    <div class="m-dialog-item-close">
+                        <div class="m-dialog-icon-close"><i class="fas fa-times"></i></div>
+                    </div>
+                </div>
+
+                <!-- center -->
+                <div class="m-dialog-body">
+                    <div class="m-dialog-body-message">
+                        <div class="m-dialog-body-message-detail"> bạn có chắc muốn đóng form nhập:"Thông tin chung của thủ tục 603" hay k ? </div>
+                    </div>
+
+                </div>
+
+                <!-- footer -->
+                <div class="m-dialog-footer">
+                    <div class="m-dialog-footer-btn-2">
+                        <button >text</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="m-dialog-content-error">
+                <!-- header -->
+                <div class="m-dialog-header">
+                    <div class="m-dialog-title">
+                        Đóng Form thông tin chung
+                    </div>
+                    <div class="m-dialog-item-close">
+                        <div class="m-dialog-icon-close"><i class="fas fa-times"></i></div>
+                    </div>
+                </div>
+
+                <!-- center -->
+                <div class="m-dialog-body">
+                    <div class="m-dialog-body-icon">
+                        <div class="m-dialog-body-icon-detail">
+                            <i class="fas fa-exclamation-circle"></i>
+                        </div>
+                    </div>
+                    <div class="m-dialog-body-message">
+                        <div class="m-dialog-body-message-detail"> bạn có chắc muốn đóng form nhập:"Thông tin chung của thủ tục 603" hay không ? </div>
+                    </div>
+
+                </div>
+
+                <!-- footer -->
+                <div class="m-dialog-footer">
+                    <div class="m-dialog-footer-btn-1">
+                        <button >text</button>
+                    </div>
+                    <div class="m-dialog-footer-btn-2">
+                        <button >text</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>     
+    </div>
+    <div class="m-row">
+        <label for="">8.Dialog infor</label>
+        <div class="m-row">
+            <button id="btn-log-dialog-infor" class="m-btn m-btn-icon ">Hien thi dialog-infor</button>
+        </div>
+        <div class="m-dialog-infor" id="m-dialog-infor">
+            <div class="m-dialog-content">
+                <!-- header -->
+                <div class="m-dialog-header">
+                    <div class="m-dialog-header-title">Thông tin nhân viên</div>
+                    <!-- <div class="m-dialog-header-close m-icon-24px "><i class="fas fa-times"></i></div> -->
+                    <div class="m-dialog-icon-close"><i class="fas fa-times"></i></div>
+                </div>
+
+                <!-- center -->
+                <div class="m-dialog-body">
+                    <div class="m-dialog-body-left">
+                        <div class="m-avata-employee  m-icon"></div>
+                        <div class="m-note-under-avata">vui lòng chọn ảnh có định dạng (.jpg,.jpeg,.png,.gif)</div>
+                    </div>
+                    <div class="m-dialog-body-right">
+                        <div class="m-dialog-infor-global">
+                            <div class="m-title-infor">A. Thông tin chung</div>
+                            <div class="m-main-infor">
+                                <div class="m-infor-left">
+                                    <div class="m-infor-detail">
+                                        <div class="m-infor-detail-title">Mã nhân viên <span class="obligatory">(*)</span></div>
+                                        <div class="m-infor-detail-input">
+                                            <input type="text" name="" id="">
+                                        </div>
+                                        <div class="m-infor-detail-title">Ngày sinh</div>
+                                        <div class="m-infor-detail-input">
+                                            <input type="date" name="" id="">
+                                        </div>
+                                        <div class="m-infor-detail-title">Số CMTND/Căn cước <span class="obligatory">(*)</span></div>
+                                        <div class="m-infor-detail-input">
+                                            <input type="text" name="" id="">
+                                        </div>
+                                        <div class="m-infor-detail-title">Nơi cấp</div>
+                                        <div class="m-infor-detail-input">
+                                            <input type="text" name="" id="">
+                                        </div>
+                                        <div class="m-infor-detail-title">Email <span class="obligatory">(*)</span></div>
+                                        <div class="m-infor-detail-input">
+                                            <input type="text" name="" id="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="m-infor-right">
+                                    <div class="m-infor-detail">
+                                        <div class="m-infor-detail-title">Họ và tên <span class="obligatory">(*)</span></div>
+                                        <div class="m-infor-detail-input">
+                                            <input type="text" name="" id="">
+                                        </div>
+                                        <div class="m-infor-detail-title">Giới tính</div>
+                                        <div class="m-infor-detail-input">
+                                            <select name="" id="">
+                                                <option value="nam">Nam</option>
+                                                <option value="nam">Nữ</option>
+                                                <option value="nam">Giới tính thứ 3</option>
+                                            </select>
+                                        </div>
+                                        <div class="m-infor-detail-title">Ngày cấp</div>
+                                        <div class="m-infor-detail-input">
+                                            <input type="date" name="" id="">
+                                        </div>
+                                        <div class="m-distance"></div>
+                                        <div class="m-infor-detail-title ">Số điện thoại <span class="obligatory">(*)</span></div>
+                                        <div class="m-infor-detail-input">
+                                            <input type="text" name="" id="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="m-dialog-infor-job">
+                            <div class="m-title-infor">B.Thông tin công việc</div>
+                            <div class="m-main-infor">
+                                <div class="m-infor-left">
+                                    <div class="m-infor-detail">
+                                        <div class="m-infor-detail-title">Vị trí</div>
+                                        <div class="m-infor-detail-input">
+                                            <select name="" id="">
+                                                <option value="">Giám đốc</option>
+                                                <option value="">Trưởng Phòng</option>
+                                                <option value="">Quản lí</option>
+                                                <option value="">Nhân viên</option>
+                                            </select>
+                                        </div>
+                                        <div class="m-infor-detail-title">Mã số thuế cá nhân</div>
+                                        <div class="m-infor-detail-input">
+                                            <input type="text" name="" id="">
+                                        </div>
+                                        <div class="m-infor-detail-title">Ngày ra nhập công ty</div>
+                                        <div class="m-infor-detail-input">
+                                            <input type="date" name="" id="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="m-infor-right">
+                                    <div class="m-infor-detail">
+                                        <div class="m-infor-detail-title">Phòng ban</div>
+                                        <div class="m-infor-detail-input">
+                                            <select name="" id="">
+                                                <option value="">Phòng nhân sự</option>
+                                                <option value="">Phòng kế toán</option>
+                                                <option value="">Phòng kỹ thuật</option>
+                                                <option value="">Phòng bán hàng</option>
+                                                <option value="">Phòng tiếp thị</option>
+                                                <option value="">Phòng pháp lý  </option>
+                                            </select>
+                                        </div>
+                                        <div class="m-infor-detail-title">Mức lương cơ bản</div>
+                                        <div class="m-infor-detail-input">
+                                            <input type="text" name="" id="">
+                                        </div>
+                                        <div class="m-infor-detail-title">Tình trạng công việc</div>
+                                        <div class="m-infor-detail-input">
+                                            <select name="" id="">
+                                                <option value="">Đang làm việc</option>
+                                                <option value="">Đã nghỉ việc</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- footer -->
+                <div class="m-dialog-footer">
+                    <div class="m-dialog-footer">
+                        <div class="m-dialog-footer-btn-1">
+                            <button >Hủy</button>
+                        </div>
+                        <div class="m-dialog-footer-btn-2">
+                            <button >Lưu</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>   
+    </div>
+    <div class="m-loading">
+        <div class="m-loading-icon"></div>
+    </div>
+    <script>
+        document.getElementById("btn-log-mes").addEventListener("click",function(){
+            var toastsBox= document.getElementsByClassName("m-toast-box");
+            toastsBox[0].style.display="block";
+            setTimeout(() => {
+                toastsBox[0].style.display="none";
+            }, 5000);
+        })
+        
+    </script>
+    <script>
+        document.getElementById("btn-log-dialog").addEventListener("click",function(){
+            var dialog= document.getElementsByClassName("m-dialog");
+            dialog.style.display="block";
+        })
+    </script>
+        <script>
+            document.getElementById("btn-log-dialog-infor").addEventListener("click",function(){
+                var dialog= document.getElementById("m-dialog-infor");
+                dialog.style.display="block";
+            })
+        </script>
+</body>
+</html>
