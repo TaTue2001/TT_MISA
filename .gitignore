@@ -1,1 +1,13 @@
 fontawesome-5.15.1
+# Bỏ qua tệp log
+*.log
+
+# Bỏ qua tệp .vs
+.vs/
+
+# Bỏ qua tệp build
+bin/
+obj/
+
+# Bỏ qua tệp cấu hình địa phương
+appsettings.json
